@@ -13,3 +13,40 @@ a {
 a:hover {
   text-decoration: underline;
 }
+nav {
+  background-color: navy;
+  padding: 10px;
+}
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+}
+nav a:hover {
+  color: lightblue;
+}
+form {
+  margin: 20px;
+}
+input {
+  padding: 5px;
+  margin-right: 10px;
+}
+button {
+  padding: 5px 10px;
+  background-color: green;
+  color: white;
+  border: none;
+}
+@media (muscreen and (max-width: 600px)) {
+  h1 {
+    font-size: 24px;
+  }
+  nav {
+    display: flex;
+    flex-direction: column;
+  }
+  nav a {
+    margin: 5px 0;
+  }
+}
